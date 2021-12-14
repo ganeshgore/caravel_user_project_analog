@@ -18,7 +18,8 @@
 export SKIP_PDK_BUILD=${1:-0}
 
 export TARGET_PATH=$(pwd)
-git clone https://github.com/efabless/mpw_precheck.git
+#git clone https://github.com/efabless/mpw_precheck.git
+git clone  --depth 1 --branch mpw-3 https://github.com/efabless/mpw_precheck.git
 
 docker pull efabless/mpw_precheck:latest
 
