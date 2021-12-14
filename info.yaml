@@ -3,7 +3,7 @@ project:
   description: "An analog project for Google sponsored Open MPW shuttles for SKY130."
   foundry: "SkyWater"
   git_url: "https://github.com/efabless/caravel_analog_user.git"
-  organization: "Efabless"
+  organization: "lnis"
   organization_url: "http://efabless.com"
   owner: "Tim Edwards"
   process: "SKY130"
